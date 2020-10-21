@@ -187,7 +187,7 @@ In order to update the version used in the binding, follow these easy steps:
 Things:
 
 ```
-systeminfo:computer:work [interval_high=3, interval_medium=60]
+Things systeminfo:computer:work [interval_high=3, interval_medium=60]
 ```
 
 Items:
@@ -265,7 +265,7 @@ String Process_path               "Path"                <none>           { chann
 Sitemap:
 
 ```
-Text label="Systeminfo" {
+sitemap Text label="Systeminfo" {
     Frame label="Network Information" {
         Default item=Network_AdapterName
         Default item=Network_Name
